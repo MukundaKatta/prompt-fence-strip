@@ -1,0 +1,15 @@
+[package]
+name = "prompt-fence-strip"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Strip ```code fences```, leading prose, and trailing chatter from LLM output so the structured payload survives. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/prompt-fence-strip"
+homepage = "https://github.com/MukundaKatta/prompt-fence-strip"
+documentation = "https://docs.rs/prompt-fence-strip"
+readme = "README.md"
+keywords = ["llm", "markdown", "fence", "strip", "parse"]
+categories = ["text-processing"]
+exclude = [".github/*", "target/*"]
